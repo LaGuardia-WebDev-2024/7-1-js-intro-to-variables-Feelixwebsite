@@ -5,7 +5,7 @@ void setup() {
 }
 
 //🎯Varaible Declarations Go Here
-var eyeSize = 8;
+var eyeSize = 50;
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
@@ -51,7 +51,7 @@ void mousePressed(){
   text(myText, mouseX + 15, mouseY);
   console.log(myText);
   
-  
+  eyeSize = random(10,90);
 }
 
 //🟡Key Pressed Procedure - Runs When Keyboard Key is Pressed
